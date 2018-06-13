@@ -10,23 +10,8 @@ using System.IO;
 
 namespace TCPSocketLib
 {
-    //public class TcpConnectReceiveEventArgs : EventArgs
-    //{
-    //    private long temperature;
-    //    public TcpConnectReceiveEventArgs(long Temperature)
-    //    {
-    //        this.temperature = Temperature;
-    //    }
-    //    public long Temperature {
-    //        get { return temperature; }
-    //        set { temperature = value; }
-    //    }
-
-    //}
-    //public delegate void TcpReceiveEventHandlaer(long temperature);
     public class TcpConnectReceive
     {
-        //public event TcpReceiveEventHandlaer onTcpReceive;
 
         private string ipString;
         private int portNo;
